@@ -10,8 +10,13 @@
     <h1>📚 Study Planner</h1>
 
     <div class="input-section">
-        <input type="text" id="taskInput" placeholder="Enter your task...">
+        <input type="text" id="taskInput" placeholder="Task">
+        <input type="date" id="dateInput">
         <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="progress">
+        <div id="progressBar"></div>
     </div>
 
     <ul id="taskList"></ul>
